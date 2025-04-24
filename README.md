@@ -1,11 +1,11 @@
 # Zoo Site – Web 1 Project 2025
 
-This is a responsive website created as part of a school assignment in HTML, CSS, and JavaScript. 
+This is a responsive website created as part of a school assignment in HTML, CSS, and JavaScript.
 The project showcases a fictional zoo, where each animal is presented with basic information and interaction using vanilla JavaScript.
 
 -----------------
 
-Live? check this out = 
+Live? check this out
 https://carljosef.github.io/zoo-site/
 
 --------------------------------------------
@@ -51,4 +51,3 @@ https://carljosef.github.io/zoo-site/
 ---
 
 ## Folder Structure
-

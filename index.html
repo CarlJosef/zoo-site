@@ -19,6 +19,7 @@
         <li><a href="#">Animals</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact</a></li>
+        <li><a href="#">Gallery</a></li>
       </ul>
     </nav>
   </header>
@@ -29,7 +30,7 @@
     <!-- SIDEBAR: Search or filter panel on the left -->
     <aside class="sidebar">
       <h2>Search</h2>
-      <input type="text" placeholder="Search favorite animals..." />
+      <input type="text" placeholder="Search animals..." onkeyup="filterAnimals()" />
     </aside>
 
     <!-- MAIN CONTENT: This is where the animals will be displayed -->
@@ -113,3 +114,12 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+
+<!-- MODAL: Hidden by default, shown when animal is clicked -->
+<div class="modal" id="animalModal">
+  <div class="modal-content">
+    <span class="close-button" onclick="closeModal()">&times;</span>
+    <h2 id="modalName">Animal Name</h2>
+    <p id="modalInfo">Some extra information about the animal...</p>
+  </div>
+</div>
