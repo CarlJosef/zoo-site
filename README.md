@@ -5,6 +5,11 @@ The project showcases a fictional zoo, where each animal is presented with basic
 
 -----------------
 
+Live? check this out = 
+https://carljosef.github.io/zoo-site/
+
+--------------------------------------------
+
 ##  Features
 
 -  Responsive layout (CSS Grid)
