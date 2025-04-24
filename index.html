@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoo Page</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER: Contains the site title and navigation menu -->
+  <header>
+    <h1>Welcome to my exotic Zoo with loot of rare animals. Enjoy!</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Animals</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTAINER: Wraps both the sidebar and the main content area -->
+  <div class="content-container">
+
+    <!-- SIDEBAR: Search or filter panel on the left -->
+    <aside class="sidebar">
+      <h2>Search</h2>
+      <input type="text" placeholder="Search favorite animals..." />
+    </aside>
+
+    <!-- MAIN CONTENT: This is where the animals will be displayed -->
+    <main class="animal-list">
+        <article class="animal-card" onclick="showAnimalInfo('Lion')">
+            <img src="images/Lion.jpg" alt="Lion" />
+            <h3>Lion</h3>
+            <p>Type: Mammal</p>
+            <p>Color: Gray</p>
+            <p>Born: 2010</p>
+            <p>Large and intelligent animal with a strong memory, a pure hunder and love meat.</p>
+          </article>
+        <article class="animal-card" onclick="showAnimalInfo('Elephant')">
+            <img src="images/Elephant.jpg" alt="Elephant" />
+            <h3>Elephant</h3>
+            <p>Type: Mammal</p>
+            <p>Color: Gray</p>
+            <p>Born: 2010</p>
+            <p>Large and intelligent Mammal with high IQ.</p>
+          </article>
+          <article class="animal-card" onclick="showAnimalInfo('Tiger')">
+            <img src="images/Tiger.jpg" alt="Tiger" />
+            <h3>Tiger</h3>
+            <p>Type: Mammal</p>
+            <p>Color: Orange with black stripes</p>
+            <p>Born: 2012</p>
+            <p>A fierce predator known for its strength and beauty.</p>
+          </article>
+
+          <article class="animal-card" onclick="showAnimalInfo('Penguin')">
+            <img src="images/Penguin.jpg" alt="Penguin" />
+            <h3>Penguin</h3>
+            <p>Type: Bird</p>
+            <p>Color: Black and white</p>
+            <p>Born: 2017</p>
+            <p>A flightless bird that swims like a fish.</p>
+          </article>
+
+          <article class="animal-card" onclick="showAnimalInfo('Giraffe')">
+            <img src="images/Giraffe.jpg" alt="Giraffe" />
+            <h3>Giraffe</h3>
+            <p>Type: Mammal</p>
+            <p>Color: Yellow with brown spots</p>
+            <p>Born: 2016</p>
+            <p>The tallest land animal, known for its long neck.</p>
+          </article>
+
+          <article class="animal-card" onclick="showAnimalInfo('Zebra')">
+            <img src="images/Zebra.jpg" alt="Zebra" />
+            <h3>Zebra</h3>
+            <p>Type: Mammal</p>
+            <p>Color: Black and white stripes</p>
+            <p>Born: 2018</p>
+            <p>A social animal known for its distinctive striped pattern.</p>
+          </article>
+
+          <article class="animal-card" onclick="showAnimalInfo('Flamingo')">
+            <img src="images/Flamingo.jpg" alt="Flamingo" />
+            <h3>Flamingo</h3>
+            <p>Type: Bird</p>
+            <p>Color: Pink</p>
+            <p>Born: 2019</p>
+            <p>Known for standing on one leg and its bright pink feathers.</p>
+          </article>
+
+          <article class="animal-card" onclick="showAnimalInfo('Bengal')">
+            <img src="images/Bengal.jpg" alt="Bengal" />
+            <h3>Snow Bengal</h3>
+            <p>Type: Mammal</p>
+            <p>Color: White with light brown spots</p>
+            <p>Born: 2020</p>
+            <p>A rare and exotic breed of cat, known for its stunning coat and playful nature.</p>
+          </article>
+
+          >
+    </main>
+
+  </div>
+
+  <!-- Link to JavaScript file -->
+  <script src="js/main.js"></script>
+</body>
+</html>
